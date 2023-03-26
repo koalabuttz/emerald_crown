@@ -6,9 +6,10 @@
 		"version": "${version}",
 		"metadata": {
 			"name": "Emerald Crown",
+			"license": "CC-BY-NC-4.0",
 			"description": "Adds an Emerald Crown to Minecraft.",
 			"contributors": {
-				"Your name here": "Koalabuttz"
+				"Koalabuttz": "Koalabuttz"
 			},
 			"contact": {
 				"homepage": "https://github.com/koalabuttz",
@@ -19,8 +20,8 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "io.github.koalabuttz.emerald_crown.EmeraldCrown",
-			"client": "io.github.koalabuttz.emerald_crown.EmeraldCrownClient"
+			"init": "io.github.koalabuttz.emerald_crown.EmeraldCrown"
+
 		},
 		"depends": [
 			{
